@@ -34,7 +34,7 @@ public class Precipitation {
             @Provider(name = ProviderName.HAMWEATHER, property = "precipMM"),
             @Provider(name = ProviderName.METEOBLUE, property = "precipitation_amount"),
             @Provider(name = ProviderName.APIXU, property = "precip_mm"),
-            @Provider(name = ProviderName.WEATHERBIT, property = "percip") })
+            @Provider(name = ProviderName.WEATHERBIT, property = "precip") })
     private Double rain;
 
     @ProviderMappings({
